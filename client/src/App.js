@@ -4,7 +4,6 @@ import ProductState from './context/product/ProductState';
 import ProductForm from './components/product/ProductForm';
 import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
 import Recipt from './components/layout/Recipt';
 
 import './App.css';
@@ -20,7 +19,7 @@ const App = () => {
               <Route exact path="/" component={Home} />
               <Route exact path="/add-product" component={ProductForm} />
               <Route exact path="/recipt" component={Recipt} />
-              <Route exact path="/about" component={About} />
+              
             </Switch>
           </div>
         </Fragment>
